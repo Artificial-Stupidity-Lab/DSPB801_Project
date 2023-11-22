@@ -2,7 +2,7 @@
 [d, sr] = audioread('a1.wav');
 
 % Set parameters
-segmentSize = round(sr * 0.0005);  % Segment size of 0.5 seconds
+segmentSize = round(sr * 0.0005);  % Segment size of 0.0005 seconds
 
 % Perform audio scrambling with segment swapping
 [scrambledAudio, segmentOrder] = audioScrambling(d, sr, segmentSize);

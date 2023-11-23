@@ -16,11 +16,10 @@
 
  ## simple_voice_scrambler
  To use this file:
-  1. Add the audio file path to scramble in line 2
-  2. The segment size can be changed in line 5, where 1 = 1 second
-  3. Run the file, the original audio file will be played
-  4. The algorithm will no pause and only play the scrambled wav file after the user presses any key on the command window (of matlab, not system).
-  5. After the scramled voice has been played, the algorithm will pause again and wait for the same prompt from the user again before playing the descrambled audio.
+  1. Add the audio file path to scramble in line 3
+  2. The pitch shift factor can be altered (lowered = -a, increased = a) in line 6
+  3. The algorithm will play the original and pitch shifted wav files and plot their corresponding frequency domain plots, whose limits can be changed in lines 16 and 20.
+ 
 
 ## Train 
 To use this file:

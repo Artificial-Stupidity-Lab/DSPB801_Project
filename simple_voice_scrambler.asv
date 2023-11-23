@@ -1,5 +1,4 @@
 % Read the audio file
-clear, close all, clc;
 [audioIn, Fs] = audioread('a1.wav');
 
 % Specify the pitch shift in semitones

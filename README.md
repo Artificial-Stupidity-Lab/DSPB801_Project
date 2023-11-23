@@ -1,11 +1,12 @@
 # DSPB801_Project
 ## ALL AUDIO FILES SHOULD BE IN WAV FORMAT
  This repository has:
-  * 4 M files
+  * 5 M files
      * simple_voice_scrambler: This the file one runs when you want to scarmble any audio file
      * train : This is the file to train the voice ID algorithm
      * test : this is the file to test the voice ID on new data.
      * audio_player : plays any audio file fed to it.
+     * area51 : This file is used as a testing ground and can be altered or deleted as one wishes.
        
   * 1 mat file
      * speaker_databse : This file contains the database of audio features extracted by simple_voice_scrambler file.

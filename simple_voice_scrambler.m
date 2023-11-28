@@ -3,7 +3,7 @@ clear, close all, clc;
 [audioIn, Fs] = audioread('a1.wav');
 
 % Specify the pitch shift in semitones
-pitchShift = 6; % Positive values raise the pitch, negative values lower it
+pitchShift = 10; % Positive values raise the pitch, negative values lower it
 
 % Perform pitch shifting
 audioOut = shiftPitch(audioIn, pitchShift);
